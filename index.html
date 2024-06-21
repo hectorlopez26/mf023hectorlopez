@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>Tabla de Clientes</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #b87333; /* Fondo color cobre */
+            color: #fff; /* Ajustar color de texto para mejor contraste */
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            color: #333; /* Color de texto del contenedor */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tfoot {
+            background-color: #f9f9f9;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Lista de Clientes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Num. Cliente</th>
+                <th>Nombre</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Juan Pérez</td>
+                <td>juan.perez@example.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>María López</td>
+                <td>maria.lopez@example.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Carlos Gómez</td>
+                <td>carlos.gomez@example.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total de Clientes: 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+</body>
+</html>
